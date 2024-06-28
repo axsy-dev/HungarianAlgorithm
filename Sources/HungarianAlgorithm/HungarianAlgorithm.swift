@@ -11,7 +11,7 @@ enum AssignmentError: Error {
     case infeasibleCostMatrix
 }
 
-enum HungarianAlgorithm {
+public enum HungarianAlgorithm {
     /**
      Use the Hungarian Algorithm to solve the two-dimensional rectangular assignment problem (given an appropriate cost matrix).
 
